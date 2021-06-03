@@ -1,39 +1,35 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-        "mspOfferName": {
-            "value": "Relecloud Managed Services"
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "mspOfferName": {
+      "value": "EasyIT Azure Delegated Administration for Azure Subscriptions"
+    },
+    "mspOfferDescription": {
+      "value": "Acceptance of this offer allows EasyIT Administrators to securely maintain and manage your Azure Subscription. Each Subscription must be added individually to allow access."
+    },
+    "managedByTenantId": {
+      "value": "7c8a94d0-ccfe-4f6e-9b9e-cf9d80cc562a"
+    },
+    "authorizations": {
+      "value": [
+        {
+          "principalId": "2196b7f3-b935-4e73-81ba-85261c40e6be",
+          "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "principalIdDisplayName": "EasyIT Azure Admins (Owner)"
         },
-        "mspOfferDescription": {
-            "value": "Relecloud Managed Services"
+        {
+          "principalId": "948c3f17-b201-4f74-9eee-ab19ee776b94",
+          "roleDefinitionId": "9980e02c-c2be-4d73-94e8-173b1dc7cf3c",
+          "principalIdDisplayName": "EasyIT Azure Techs (Virtual Machines)"
         },
-        "managedByTenantId": {
-            "value": "<insert managing tenant id>"
-        },
-        "authorizations": {
-            "value": [
-                { 
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244", 
-                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-                    "principalIdDisplayName": "PIM_Group" 
-                }, 
-                { 
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244", 
-                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
-                    "principalIdDisplayName": "PIM_Group"
-                    
-                },
-                {
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244",
-                    "principalIdDisplayName": "PIM_Group",
-                    "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
-                    "delegatedRoleDefinitionIds": [
-                        "b24988ac-6180-42a0-ab88-20f7382dd24c",
-                        "92aaf0da-9dab-42b6-94a3-d43ce8d16293"
-                    ]
-                }
-                    ]
-                }                
+		{
+          "principalId": "2196b7f3-b935-4e73-81ba-85261c40e6be",
+          "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
+          "principalIdDisplayName": "EasyIT Azure Admins (Delete delegation)"
         }
+		
+      ]
+    }
+  }
 }

@@ -24,7 +24,7 @@
           "principalIdDisplayName": "EasyIT Azure Admins (Delete delegation)"
         },
 	{
-          "principalId": "ae86249d-170f-46d6-81ba-ac0c7f556ae7",
+          "principalId": "ab47128f-3814-46dc-86ab-b3bbd5fd687c",
           "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
           "principalIdDisplayName": "EasyIT Network Techs (Readers)"
         }

@@ -14,17 +14,17 @@
     "authorizations": {
       "value": [
         {
-          "principalId": "948c3f17-b201-4f74-9eee-ab19ee776b94",
+          "principalId": "a46c2792-370e-43b8-bc05-9c5211e448b3",
           "roleDefinitionId": "9980e02c-c2be-4d73-94e8-173b1dc7cf3c",
           "principalIdDisplayName": "EasyIT Azure Techs (Virtual Machines)"
         },
 		{
-          "principalId": "2196b7f3-b935-4e73-81ba-85261c40e6be",
+          "principalId": "ff186df2-7a21-4ce7-8a6d-5fb17d6b52cb",
           "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
           "principalIdDisplayName": "EasyIT Azure Admins (Delete delegation)"
         },
 	{
-          "principalId": "940b6085-91a1-4788-a3fe-6131ae2d7a3f",
+          "principalId": "ae86249d-170f-46d6-81ba-ac0c7f556ae7",
           "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
           "principalIdDisplayName": "EasyIT Network Techs (Readers)"
         }

@@ -27,6 +27,11 @@
           "principalId": "ab47128f-3814-46dc-86ab-b3bbd5fd687c",
           "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
           "principalIdDisplayName": "EasyIT Network Techs (Readers)"
+        },
+	{
+          "principalId": "ab47128f-3814-46dc-86ab-b3bbd5fd687c",
+          "roleDefinitionId": "43d0d8ad-25c7-4714-9337-8ba259a9fe05",
+          "principalIdDisplayName": "EasyIT Network Techs (Readers)"
         }
 		
       ]

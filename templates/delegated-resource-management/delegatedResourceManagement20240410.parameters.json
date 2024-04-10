@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "mspOfferName": {
+      "value": "EasyIT Azure Delegated Administration for Azure Subscriptions"
+    },
+    "mspOfferDescription": {
+      "value": "Acceptance of this offer allows EasyIT Administrators to securely maintain and manage your Azure Subscription. Each Subscription must be added individually to allow access."
+    },
+    "managedByTenantId": {
+      "value": "7c8a94d0-ccfe-4f6e-9b9e-cf9d80cc562a"
+    },
+    "authorizations": {
+      "value": [
+        {
+          "principalId": "a46c2792-370e-43b8-bc05-9c5211e448b3",
+          "roleDefinitionId": "9980e02c-c2be-4d73-94e8-173b1dc7cf3c",
+          "principalIdDisplayName": "EasyIT Azure Techs (Virtual Machines)"
+        },
+        {
+          "principalId": "a46c2792-370e-43b8-bc05-9c5211e448b3",
+          "roleDefinitionId": "4d97b98b-1d4f-4787-a291-c67834d212e7",
+          "principalIdDisplayName": "EasyIT TSMS (Network Contributor)"
+        },
+
+		{
+          "principalId": "ff186df2-7a21-4ce7-8a6d-5fb17d6b52cb",
+          "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
+          "principalIdDisplayName": "EasyIT Azure Admins (Delete delegation)"
+        },
+	{
+          "principalId": "ab47128f-3814-46dc-86ab-b3bbd5fd687c",
+          "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+          "principalIdDisplayName": "EasyIT Network Techs (Readers)"
+        },
+	{
+          "principalId": "ab47128f-3814-46dc-86ab-b3bbd5fd687c",
+          "roleDefinitionId": "00c29273-979b-4161-815c-10b084fb9324",
+          "principalIdDisplayName": "EasyIT Network Techs (Readers)"
+        },	
+    {
+          "principalId": "8c187b7d-e110-42f4-8836-4936882e258a",
+          "roleDefinitionId": "f7b75c60-3036-4b75-91c3-6b41c27c1689",
+          "principalIdDisplayName": "EasyIT TSMs (Reservations)"
+        }
+		
+      ]
+    }
+  }
+}
